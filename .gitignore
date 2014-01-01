@@ -12,3 +12,4 @@ target/*
 .project
 .classpath
 *.iml
+node_modules/

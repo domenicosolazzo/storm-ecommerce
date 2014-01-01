@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'express' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose read json /Users/domenicosolazzo/Documents/Developer/Development/git/package.json
+5 warn package.json dashdash@0.0.0 No README.md file found!
+6 verbose from cache /Users/domenicosolazzo/Documents/Developer/Development/git/package.json
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express', null ]
+9 verbose cache add name=undefined spec="express" args=["express",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express',
+10 verbose parsed url   path: 'express',
+10 verbose parsed url   href: 'express' }
+11 silly lockFile f3c62de4-express express
+12 verbose lock express /Users/domenicosolazzo/.npm/f3c62de4-express.lock
+13 silly lockFile f3c62de4-express express
+14 verbose addNamed [ 'express', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile 64a534c1-express express@
+17 verbose lock express@ /Users/domenicosolazzo/.npm/64a534c1-express.lock
+18 silly lockFile 64a534c1-express express@
+19 error Error: EACCES, open '/Users/domenicosolazzo/.npm/64a534c1-express.lock'
+19 error  { [Error: EACCES, open '/Users/domenicosolazzo/.npm/64a534c1-express.lock']
+19 error   errno: 3,
+19 error   code: 'EACCES',
+19 error   path: '/Users/domenicosolazzo/.npm/64a534c1-express.lock' }
+20 error Please try running this command again as root/Administrator.
+21 error System Darwin 13.0.0
+22 error command "node" "/usr/local/bin/npm" "install" "express"
+23 error cwd /Users/domenicosolazzo/Documents/Developer/Development/git/storm-ecommerce/webapp
+24 error node -v v0.10.4
+25 error npm -v 1.2.18
+26 error path /Users/domenicosolazzo/.npm/64a534c1-express.lock
+27 error code EACCES
+28 error errno 3
+29 error stack Error: EACCES, open '/Users/domenicosolazzo/.npm/64a534c1-express.lock'
+30 verbose exit [ 3, true ]

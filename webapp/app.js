@@ -131,7 +131,7 @@ app.get('/product/:id', function(req, res) {
 		}
 
 		if(reply==null) {
-			res.render('not_found.jade', {title: "Producto not found"});
+			res.render('not_found.jade', {title: "Product not found"});
 			return ;
 		}
 
